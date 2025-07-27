@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "@bull-board/api": "^6.12.0",
+    "@bull-board/express": "^6.12.0",
+    "@bull-board/ui": "^6.12.0",
+    "bull": "^4.16.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0"
+  },
+  "name": "reddis-bullmq",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dashboard": "node bullboard.js",
+    "dev": "concurrently \"npm start\" \"npm run dashboard\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module"
+}
