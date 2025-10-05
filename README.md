@@ -2,6 +2,14 @@
 
 A example job queue management system built with Node.js, Redis, and Bull. This project demonstrates how to implement multiple job queues with priority-based processing, comprehensive monitoring, and a web-based dashboard.
 
+## 📸 Screenshots
+
+### Bull Dashboard
+![Bull Dashboard](./public/images/github/BullDashboard.png)
+
+### Bull Queue Processing
+![Bull Queue](./public/images/github/BullQueue.png)
+
 ## ✨ Features
 
 - **🎯 Multiple Queue Types**: Email, SMS, and Purchase processing queues
